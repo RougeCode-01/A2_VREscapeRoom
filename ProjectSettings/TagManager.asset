@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Anchor
   - Ball
+  - PuzzlePieceOne
+  - PuzzlePieceTwo
+  - PuzzlePieceThree
   layers:
   - Default
   - TransparentFX
