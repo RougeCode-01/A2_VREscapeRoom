@@ -1,10 +1,10 @@
 # ninja log v5
-2	396	1742431288000000000	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	ff9d3aaa6137b06b
-1	401	1742431288000000000	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	afc834c9f79bf008
-1	410	1742431288000000000	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	b5be9b0f4b043776
-2	415	1742431288000000000	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	28ec24c829765138
-3	455	1742431288000000000	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	a88c2e9b34bf9516
-1	487	1742431288000000000	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	563775304fb48c10
-2	570	1742431289000000000	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	3816d3c0b207d7f6
-0	634	1742431289000000000	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	334472f649dbf1cd
-634	728	1742431289000000000	/Volumes/WindowsSSD/School/Unity/FithTerm/A2_VREscapeRoom/A2_VREscapeRoom/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1wj31t46/obj/arm64-v8a/libgame.so	fbabfb3ae8b300a2
+2	472	1742432713000000000	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	ff9d3aaa6137b06b
+1	481	1742432713000000000	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	afc834c9f79bf008
+1	492	1742432713000000000	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	b5be9b0f4b043776
+2	496	1742432713000000000	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	28ec24c829765138
+3	536	1742432713000000000	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	a88c2e9b34bf9516
+1	566	1742432713000000000	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	563775304fb48c10
+2	673	1742432714000000000	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	3816d3c0b207d7f6
+0	741	1742432714000000000	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	334472f649dbf1cd
+742	856	1742432714000000000	/Volumes/WindowsSSD/School/Unity/FithTerm/A2_VREscapeRoom/A2_VREscapeRoom/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1wj31t46/obj/arm64-v8a/libgame.so	fbabfb3ae8b300a2
