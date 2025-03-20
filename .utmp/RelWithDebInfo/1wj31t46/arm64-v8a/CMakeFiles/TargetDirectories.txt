@@ -1,0 +1,5 @@
+/Volumes/WindowsSSD/School/Unity/FithTerm/A2_VREscapeRoom/A2_VREscapeRoom/.utmp/RelWithDebInfo/1wj31t46/arm64-v8a/CMakeFiles/edit_cache.dir
+/Volumes/WindowsSSD/School/Unity/FithTerm/A2_VREscapeRoom/A2_VREscapeRoom/.utmp/RelWithDebInfo/1wj31t46/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Volumes/WindowsSSD/School/Unity/FithTerm/A2_VREscapeRoom/A2_VREscapeRoom/.utmp/RelWithDebInfo/1wj31t46/arm64-v8a/GameActivity/CMakeFiles/game.dir
+/Volumes/WindowsSSD/School/Unity/FithTerm/A2_VREscapeRoom/A2_VREscapeRoom/.utmp/RelWithDebInfo/1wj31t46/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+/Volumes/WindowsSSD/School/Unity/FithTerm/A2_VREscapeRoom/A2_VREscapeRoom/.utmp/RelWithDebInfo/1wj31t46/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir

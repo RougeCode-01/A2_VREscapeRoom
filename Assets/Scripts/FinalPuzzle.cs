@@ -21,7 +21,7 @@ public class FinalPuzzle : MonoBehaviour
     }
     private void OpenDoor()
     {
-        // Open the door
+        // Open the door by enabling the xr intractable component
         //Animate the door to open
         //Play a sound
     }
