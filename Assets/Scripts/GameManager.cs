@@ -17,12 +17,11 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("EscapeRoom");
     }
 
-    private void FailedLevel()
+    public void FailedLevel()
     {
-        //if the timer runs out
-        //Fail the player
-        //Play a sound
-        //Load the game over scene
+        // Play a sound
+        GetComponent<AudioSource>().Play();
+        // Load the game over scene
         SceneManager.LoadScene("GameOverScene");
     }
 

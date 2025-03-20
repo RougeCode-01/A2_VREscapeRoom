@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 public class FinalPuzzle : MonoBehaviour
 {
@@ -7,11 +8,13 @@ public class FinalPuzzle : MonoBehaviour
     [SerializeField] private GameObject scaleTwo;
     [SerializeField] private GameObject scaleThree;
     [SerializeField] private GameObject doorToOpen;
-    
+    [SerializeField] private Vector3 doorOpenPosition; 
+    [SerializeField] private Vector3 scaleDownPosition;
+
     private bool scaleOneCorrect = false;
     private bool scaleTwoCorrect = false;
     private bool scaleThreeCorrect = false;
-    
+
     void Update()
     {
         if (scaleOneCorrect == true && scaleTwoCorrect == true && scaleThreeCorrect == true)
@@ -19,40 +22,49 @@ public class FinalPuzzle : MonoBehaviour
             OpenDoor();
         }
     }
+
     private void OpenDoor()
     {
-        // Open the door by enabling the xr intractable component
-        //Animate the door to open
-        //Play a sound
+        // Open the door by enabling the XR interactable component
+        doorToOpen.GetComponent<XRBaseInteractable>().enabled = true;
+        // Play a sound
+        doorToOpen.GetComponent<AudioSource>().Play();
     }
 
     private void OnCollisionEnter(Collision other)
     {
-        // Check if the object that collided with the scale is the puzzle piece
         if (other.gameObject.CompareTag("PuzzlePieceOne"))
         {
-            //Change color of scaleOne
-            //Animate the scale to move down if it right or up if it is wrong
-            //Play a sound
+            // Change color of scaleOne
+            scaleOne.GetComponent<Renderer>().material.color = Color.green;
+            // Move the scale down
+            scaleOne.transform.position = scaleDownPosition;
+            // Play a sound
+            scaleOne.GetComponent<AudioSource>().Play();
             scaleOneCorrect = true;
             Debug.Log(scaleOneCorrect);
         }
         else if (other.gameObject.CompareTag("PuzzlePieceTwo"))
         {
-            //Change color of scaleTwo
-            //Animate the scale to move down if it right or up if it is wrong
-            //Play a sound
+            // Change color of scaleTwo
+            scaleTwo.GetComponent<Renderer>().material.color = Color.green;
+            // Move the scale down
+            scaleTwo.transform.position = scaleDownPosition;
+            // Play a sound
+            scaleTwo.GetComponent<AudioSource>().Play();
             scaleTwoCorrect = true;
             Debug.Log(scaleTwoCorrect);
         }
         else if (other.gameObject.CompareTag("PuzzlePieceThree"))
         {
-            //Change color of scaleThree
-            //Animate the scale to move down if it right or up if it is wrong
-            //Play a sound
+            // Change color of scaleThree
+            scaleThree.GetComponent<Renderer>().material.color = Color.green;
+            // Move the scale down
+            scaleThree.transform.position = scaleDownPosition;
+            // Play a sound
+            scaleThree.GetComponent<AudioSource>().Play();
             scaleThreeCorrect = true;
             Debug.Log(scaleThreeCorrect);
         }
     }
-    
 }
