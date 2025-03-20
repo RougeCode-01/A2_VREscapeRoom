@@ -1,0 +1,2 @@
+/Volumes/WindowsSSD/School/Unity/FithTerm/A2_VREscapeRoom/A2_VREscapeRoom/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/CMakeLists.txt
+/Volumes/WindowsSSD/School/Unity/FithTerm/A2_VREscapeRoom/A2_VREscapeRoom/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/CMakeLists.txt
